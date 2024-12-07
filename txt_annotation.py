@@ -1,7 +1,7 @@
 import os
 
 
-datasets_path   = 'datasets'
+datasets_path   = 'datasets/bremen'
 
 if __name__ == "__main__":
     classes     = ['A', 'B']

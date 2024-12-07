@@ -12,7 +12,9 @@ from utils.utils import (cvtColor, postprocess_output, preprocess_input,
 class OURMODEL(object):
     _defaults = {
 
-        "model_path"        : 'model_data/G.pth',
+        # "model_path"        : 'model_data/G.pth',
+        # "model_path"        : 'logs/G_model_B2A_Epoch60-GLoss4.8403-DALoss0.4077-DBLoss0.1516.pth',
+        "model_path"        : 'logs/G_model_B2A_Epoch50-GLoss4.1633-DALoss0.4293-DBLoss0.2871.pth',
 
         "input_shape"       : [256, 512],
 
